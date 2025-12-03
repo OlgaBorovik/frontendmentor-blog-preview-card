@@ -13,8 +13,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/OlgaBorovik/frontendmentor-blog-preview-card)
-- Live Site URL: [Add live site URL here](https://olgaborovik.github.io/frontendmentor-blog-preview-card/)
+- Solution URL: https://github.com/OlgaBorovik/frontendmentor-blog-preview-card
+- Live Site URL: https://olgaborovik.github.io/frontendmentor-blog-preview-card/
 
 ## My process
 
@@ -26,7 +26,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - (https://www.frontendmentor.io/profile/OlgaBorovik)
+- Frontend Mentor - https://www.frontendmentor.io/profile/OlgaBorovik
 
 
 
