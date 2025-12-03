@@ -1,0 +1,143 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+div,
+span,
+h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /* vertical-align: baseline; */
+    background: transparent;
+}
+
+
+
+body{
+     
+        font-family: "Figtree", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        background-color: var(--bgColor);
+        color: var(--mainTextColor);
+        
+}
+
+:root {
+    --bgColor: hsl(47, 88%, 63%);
+    --mainTextColor: hsl(0, 0%, 42%);
+    --white: #fff;
+    --secondaryTextColor:hsl(0, 0%, 7%);
+}
+
+
+
+.card {
+    background-color: var(--white);
+    max-width: 327px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    @media screen and (min-width: 420px) {
+        margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+         @media screen and (min-width: 1024px) {
+             max-width: 384px;
+         }
+}
+
+.card__image {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+.card__tag {
+    display: inline-block;
+    background-color: var(--bgColor);
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.5;
+    color: var(--secondaryTextColor);
+    margin-bottom: 12px;
+    @media screen and (min-width: 1024px) {
+            font-size: 14px;
+        }
+}
+
+.card__date {
+    font-size: 12px;
+    color: var(--secondaryTextColor);
+    line-height: 1.5;
+    margin-bottom: 12px;
+    @media screen and (min-width: 1024px) {
+            font-size: 14px;
+        }
+
+}
+
+.card__title {
+    font-size: 20px;
+    color: var(--secondaryTextColor);
+    font-weight: 800;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    @media screen and (min-width: 1024px) {
+            font-size: 24px;
+        }
+}
+
+.card__text {
+    line-height: 1.5;
+    margin-bottom: 24px;
+    font-size: 14px;
+    @media screen and (min-width: 1024px) {
+            font-size: 16px;
+        }
+}
+
+.card__author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--secondaryTextColor);
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
